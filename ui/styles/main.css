@@ -1,0 +1,22 @@
+QWidget
+{
+    color: @font;
+    background-color: @background;
+    outline: 0px;
+}
+
+QPushButton
+{
+	color: @font_highlight;
+    background-color: @highlight;
+    border-radius: 5px;
+}
+QPushButton::hover
+{
+	background-color: @highlight_hover;
+}
+
+#labelDescription
+{
+	color: @description;
+}
